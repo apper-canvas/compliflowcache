@@ -467,10 +467,10 @@ const MainFeature = ({ darkMode }) => {
           {/* Demo Showcase Area */}
           <div className="lg:col-span-3">
             <AnimatePresence mode="wait">
-              {renderUseCaseContent()}
+{renderUseCaseContent()}
             </AnimatePresence>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
